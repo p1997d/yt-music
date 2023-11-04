@@ -113,9 +113,9 @@ class PlaylistController extends Controller
                 $model = new FavoritePlaylistVideo();
                 $model->user_id = $user_id;
                 $model->video_id = $video_id;
-                $model->title = $infoJson->videoDetails->title;
-                $model->channel = $infoJson->videoDetails->author->name;
-                $model->thumbnails = $infoJson->videoDetails->thumbnails[0]->url;
+                $model->title = $infoJson->title;
+                $model->channel = $infoJson->channel;
+                $model->thumbnails = $infoJson->thumbnails;
                 $model->save();
             } else {
                 return response("Ошибка: " . $responseInfo->status(), $responseInfo->status());
@@ -137,9 +137,9 @@ class PlaylistController extends Controller
                     $model = new PlaylistVideo();
                     $model->playlist_id = $playlist;
                     $model->video_id = $id;
-                    $model->title = $infoJson->videoDetails->title;
-                    $model->channel = $infoJson->videoDetails->author->name;
-                    $model->thumbnails = $infoJson->videoDetails->thumbnails[0]->url;
+                    $model->title = $infoJson->title;
+                    $model->channel = $infoJson->channel;
+                    $model->thumbnails = $infoJson->thumbnails;
                     $model->save();
                 } else {
                     return response("Ошибка: " . $responseInfo->status(), $responseInfo->status());
