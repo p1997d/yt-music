@@ -1,0 +1,110 @@
+body {
+    /* background-color: #111927;
+    background-image:
+        radial-gradient(at 47% 33%, hsl(162, 77%, 40%) 0, transparent 59%),
+        radial-gradient(at 82% 65%, hsl(212.37, 72%, 59%) 0, transparent 55%); */
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    width: 100%;
+    height: 100vh;
+}
+
+.app {
+    width: 90vw;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 14px;
+}
+
+.content-main {
+    background-color: rgb(16 18 27 / 40%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.content {
+    background-color: hsla(229, 26%, 8%, 0.7);
+}
+
+.item {
+    background-color: #9297b321;
+    border: none;
+}
+
+.item.active {
+    background-color: #0d6efd31!important;
+}
+
+.item.disabled {
+    background-color: #1e222531!important;
+}
+
+.custom-accordion-button .arrow-icon {
+    transition: transform 0.3s;
+}
+
+.custom-accordion-button[aria-expanded="true"] .arrow-icon {
+    transform: rotate(180deg);
+}
+
+.progress-seek {
+    background: linear-gradient(0deg, #3e4246bf 0%, #26282bbf 50%, #0e0f10bf 100%);
+}
+
+.progress-buffer {
+    background: none!important;
+}
+
+.progress-bar-seek {
+    background: linear-gradient(0deg, #0242a2bf 0%, #0d6efdbf 50%, #72aafebf 100%);
+}
+
+.progress-bar-buffer {
+    background: linear-gradient(0deg, #f4f5f5bf 0%, #d9dbddbf 50%, #bec2c6bf 100%);
+}
+
+.addToPlaylistItem .plusIcon {
+    opacity: 0;
+}
+
+.addToPlaylistItem:hover .plusIcon {
+    opacity: 1;
+}
+
+.addToPlaylistItem .checkIcon::before {
+    font-family:'Bootstrap-icons';
+    content:'\F26E';
+}
+
+.addToPlaylistItem:hover .checkIcon::before {
+    font-family:'Bootstrap-icons';
+    content: '\F5DE';
+}
+
+.text-input {
+    border: none;
+    background-color: rgb(20, 22, 43, 0.75);
+    border-radius: 4px;
+    box-shadow: 0 0 0 2px rgba(134, 140, 160, 0.02);
+    color: #f9fafb;
+}
+
+.button {
+    background-color: #9297b321;
+}
+
+.button:hover {
+    background-color: #0d6efd31!important;
+}
+
+.plyr {
+    width: 560px!important;
+    height: 315px!important;
+}
