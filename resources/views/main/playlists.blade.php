@@ -1,5 +1,5 @@
 <div class="col-lg-9 border-start h-100">
-    @auth
+    {{-- @auth --}}
         <div class="row border-bottom align-items-center" style="height: 57px">
             <div class="w-100 text-center">
                 <p class="m-0">{{ $title }}</p>
@@ -71,9 +71,9 @@
             @endif
             {{ $videos->links('partials.pagination') }}
         </div>
-    @else
+    {{-- @else
         <div class="row px-3 py-1 border-bottom d-flex align-items-center" style="height: 57px">
             <div class="text-center">Для доступа к спискам треков, пожалуйста, авторизуйтесь.</div>
         </div>
-    @endif
+    @endif --}}
 </div>

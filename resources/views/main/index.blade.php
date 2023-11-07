@@ -11,10 +11,14 @@
         </div>
         <div class="row flex-fill d-flex m-0" id="pjaxContainer">
             @include('main.login.index')
-            @include('main.playlists')
+            @auth
+                @include('main.playlists')
+            @endauth
         </div>
         <div class="row">
-            <div class="footer">@include('layouts.footer')</div>
+            @auth
+                <div class="footer">@include('layouts.footer')</div>
+            @endauth
         </div>
 
         <div class="offcanvas offcanvas-end z-1 w-50 content" tabindex="-1" id="offcanvasSearch"
