@@ -30,17 +30,17 @@
         <div class="accordion-header d-flex justify-content-between">
             <div class="d-flex ps-3">
                 <div class="btn-group py-3 px-1">
-                    <button type="button" class="btn btn-outline-light btn-sm" id="prevButton">
+                    <button type="button" class="btn btn-outline-light" id="prevButton">
                         <i class="bi bi-skip-start"></i>
                     </button>
                     <button type="button" class="btn btn-outline-light" id="pauseButton">
                         <i class="bi bi-play"></i>
                     </button>
-                    <button type="button" class="btn btn-outline-light btn-sm" id="nextButton">
+                    <button type="button" class="btn btn-outline-light" id="nextButton">
                         <i class="bi bi-skip-end"></i>
                     </button>
                 </div>
-                <div class="align-middle m-auto px-2 z-2">
+                <div class="py-3 px-1 z-2">
                     <img src="" class="rounded-circle thumbnail" id="videoThumbnail" width="32"
                         height="32" style="display: none">
                 </div>
