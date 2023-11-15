@@ -9,12 +9,12 @@
                     выйти
                 </button>
             </form>
-            <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#playlistContent"
+                aria-controls="playlistContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
-        <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse w-100" id="playlistContent">
             <ul class="nav nav-pills flex-column p-3 w-100" id="playlists">
                 <li class="nav-item">
                     <a href="/playlist/likes" class="nav-link link-light item mb-2" aria-current="page">

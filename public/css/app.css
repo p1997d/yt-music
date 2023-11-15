@@ -113,6 +113,10 @@ body {
     height: fit-content;
 }
 
+#collapseVideo{
+    padding-bottom: 6rem;
+}
+
 @media (max-width: 992px) {
     body {
         padding: 0;
@@ -120,5 +124,8 @@ body {
     .app {
         width: 100%;
         height: 100%;
+    }
+    #collapseVideo{
+        padding-bottom: 10rem;
     }
 }

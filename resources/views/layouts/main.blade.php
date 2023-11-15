@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -51,7 +52,7 @@
     <title>@yield('title')</title>
 </head>
 
-<body>
+<body style="height: 100dvh">
     @yield('content')
 </body>
 
