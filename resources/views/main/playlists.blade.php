@@ -29,14 +29,14 @@
                                         <i class="bi bi-play"></i>
                                     </button>
                                     <a href="https://www.youtube.com/watch?v={{ $video->video_id }}" target="_blank"
-                                        class="btn btn-outline-light btn-sm">
+                                        class="btn btn-outline-light btn-sm d-none d-lg-inline-block">
                                         <i class="bi bi-youtube"></i>
                                     </a>
                                     <button type="button" data-id="{{ $video->video_id }}"
-                                        class="btn btn-outline-light btn-sm likeButton @if ($favoriteVideos->contains($video->video_id)) active @endif">
+                                        class="btn btn-outline-light btn-sm likeButton @if ($favoriteVideos->contains($video->video_id)) active @endif d-none d-lg-inline-block">
                                         <i class="bi bi-suit-heart"></i>
                                     </button>
-                                    <div class="btn-group" role="group">
+                                    <div class="btn-group d-none d-lg-inline-block" role="group">
                                         <div class="dropdown">
                                             <button class="btn btn-outline-light btn-sm dropdown-toggle" type="button"
                                                 data-bs-toggle="dropdown" aria-expanded="false">

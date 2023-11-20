@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg col-lg align-items-start">
     <div class="container-fluid flex-lg-column p-0 mb-1">
-        <div class="d-flex justify-content-between w-100 border-bottom px-3 pb-2">
+        <div class="d-flex justify-content-between align-items-center w-100 border-bottom px-3 pb-2">
             <form method="POST" action="{{ route('logout') }}">
                 @csrf
                 <h6 class="m-0">Здравствуйте, {{ auth()->user()->name }}</h6>
@@ -9,7 +9,7 @@
                     выйти
                 </button>
             </form>
-            <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#playlistContent"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#playlistContent"
                 aria-controls="playlistContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

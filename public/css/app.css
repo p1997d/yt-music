@@ -139,4 +139,7 @@ body {
     .search {
         width: 50%;
     }
+	.footerButtons {
+		width: 100%;
+	}
 }

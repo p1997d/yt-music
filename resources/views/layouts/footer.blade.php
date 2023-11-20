@@ -29,33 +29,37 @@
         </div>
         <div class="accordion-header d-flex justify-content-between">
             <nav class="navbar navbar-expand-lg w-100">
-                <div class="container-fluid">
-                    <div class="d-flex">
-                        <div class="btn-group py-3 px-1">
-                            <button type="button" class="btn btn-outline-light btn-sm" id="prevButton">
-                                <i class="bi bi-skip-start"></i>
-                            </button>
-                            <button type="button" class="btn btn-outline-light btn-sm" id="pauseButton">
-                                <i class="bi bi-play"></i>
-                            </button>
-                            <button type="button" class="btn btn-outline-light btn-sm" id="nextButton">
-                                <i class="bi bi-skip-end"></i>
-                            </button>
-                        </div>
-                        <div class="py-3 px-1 z-2">
-                            <img src="" class="rounded-circle thumbnail" id="videoThumbnail" width="32"
-                                height="32" style="display: none">
-                        </div>
-                        <div class="align-middle m-auto px-2 z-2">
-                            <p class="fs-6 m-0 fw-medium" id="videoTitle"></p>
-                            <p class="m-0 text-body-secondary fw-medium"><small id="videoChannel"></small></p>
-                        </div>
+                <div class="container-fluid flex-lg-nowrap flex-row">
+                    <div class="d-flex justify-content-between footerButtons">
+						<div class="d-flex">
+							<div class="btn-group py-3 px-1">
+								<button type="button" class="btn btn-outline-light btn-sm" id="prevButton">
+									<i class="bi bi-skip-start"></i>
+								</button>
+								<button type="button" class="btn btn-outline-light btn-sm" id="pauseButton">
+									<i class="bi bi-play"></i>
+								</button>
+								<button type="button" class="btn btn-outline-light btn-sm" id="nextButton">
+									<i class="bi bi-skip-end"></i>
+								</button>
+							</div>
+							<div class="py-3 px-1 z-2">
+								<img src="" class="rounded-circle thumbnail" id="videoThumbnail" width="32"
+									height="32" style="display: none">
+							</div>
+							<div class="align-middle m-auto px-2 z-2">
+								<p class="m-0 fw-medium" id="videoTitle"></p>
+								<p class="m-0 text-body-secondary fw-medium"><small id="videoChannel"></small></p>
+							</div>
+						</div>
+						<div class="py-3 px-1">
+							<button class="btn btn-outline-light btn-sm d-lg-none" type="button" data-bs-toggle="collapse"
+								data-bs-target="#footerContent" aria-controls="footerContent"
+								aria-label="Toggle navigation">
+								<i class="bi bi-list"></i>
+							</button>
+						</div>
                     </div>
-                    <button class="btn btn-outline-light btn-sm" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#footerContent" aria-controls="footerContent"
-                        aria-label="Toggle navigation">
-                        <i class="bi bi-list"></i>
-                    </button>
                     <div class="collapse navbar-collapse" id="footerContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100">
                             <li class="nav-item d-flex justify-content-between w-100">
