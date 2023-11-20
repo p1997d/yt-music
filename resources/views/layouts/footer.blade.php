@@ -32,13 +32,13 @@
                 <div class="container-fluid">
                     <div class="d-flex">
                         <div class="btn-group py-3 px-1">
-                            <button type="button" class="btn btn-outline-light" id="prevButton">
+                            <button type="button" class="btn btn-outline-light btn-sm" id="prevButton">
                                 <i class="bi bi-skip-start"></i>
                             </button>
-                            <button type="button" class="btn btn-outline-light" id="pauseButton">
+                            <button type="button" class="btn btn-outline-light btn-sm" id="pauseButton">
                                 <i class="bi bi-play"></i>
                             </button>
-                            <button type="button" class="btn btn-outline-light" id="nextButton">
+                            <button type="button" class="btn btn-outline-light btn-sm" id="nextButton">
                                 <i class="bi bi-skip-end"></i>
                             </button>
                         </div>
@@ -51,7 +51,7 @@
                             <p class="m-0 text-body-secondary fw-medium"><small id="videoChannel"></small></p>
                         </div>
                     </div>
-                    <button class="btn btn-outline-light" type="button" data-bs-toggle="collapse"
+                    <button class="btn btn-outline-light btn-sm" type="button" data-bs-toggle="collapse"
                         data-bs-target="#footerContent" aria-controls="footerContent"
                         aria-label="Toggle navigation">
                         <i class="bi bi-list"></i>
@@ -60,17 +60,17 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100">
                             <li class="nav-item d-flex justify-content-between w-100">
                                 <div class="btn-group py-3 px-1">
-                                    <a target="_blank" class="btn btn-outline-light" id="videoYouTubeLink"
+                                    <a target="_blank" class="btn btn-outline-light btn-sm" id="videoYouTubeLink"
                                         style="display: none">
                                         <i class="bi bi-youtube"></i>
                                     </a>
-                                    <button type="button" class="btn btn-outline-light likeButton"
+                                    <button type="button" class="btn btn-outline-light btn-sm likeButton"
                                         id="likeButton" style="display: none">
                                         <i class="bi bi-suit-heart"></i>
                                     </button>
 
                                     <div class="dropend" id="addToPlaylist" style="display: none">
-                                        <button class="btn btn-outline-light dropdown-toggle rounded-start-0"
+                                        <button class="btn btn-outline-light btn-sm dropdown-toggle rounded-start-0"
                                             type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             <i class="bi bi-plus-lg"></i>
                                         </button>
@@ -80,16 +80,16 @@
                                 </div>
                                 <div>
                                     <div class="btn-group py-3 px-1" role="group">
-                                        <button type="button" class="btn btn-outline-light" id="loopButton">
+                                        <button type="button" class="btn btn-outline-light btn-sm" id="loopButton">
                                             <i class="bi bi-repeat"></i>
                                         </button>
-                                        <button type="button" class="btn btn-outline-light"
+                                        <button type="button" class="btn btn-outline-light btn-sm"
                                             id="shuffleButton">
                                             <i class="bi bi-shuffle"></i>
                                         </button>
                                     </div>
                                     <div class="btn-group py-3 px-1 dropup" role="group">
-                                        <button type="button" class="btn btn-outline-light dropdown-toggle"
+                                        <button type="button" class="btn btn-outline-light btn-sm dropdown-toggle"
                                             data-bs-toggle="dropdown" data-bs-auto-close="outside"
                                             aria-expanded="false" id="volumeButton">
                                             <i class="bi bi-volume-up"></i>
@@ -97,7 +97,7 @@
                                         <div class="dropdown-menu content px-2 mb-2" style="width: 15rem;">
                                             <div class="d-flex align-items-center">
                                                 <button type="button" id="muteButton"
-                                                    class="btn btn-outline-light me-2">
+                                                    class="btn btn-outline-light btn-sm me-2">
                                                     <i class="bi bi-volume-mute"></i>
                                                 </button>
                                                 <input type="range" class="form-range" id="volumeRange">
@@ -105,7 +105,7 @@
                                         </div>
                                     </div>
                                     <div class="btn-group py-3 px-1" role="group">
-                                        <button class="btn btn-outline-light d-flex custom-accordion-button"
+                                        <button class="btn btn-outline-light btn-sm d-flex custom-accordion-button"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseVideo"
                                             aria-expanded="false" aria-controls="collapseVideo">
                                             <div><i class="bi bi-film p-1"></i></div>

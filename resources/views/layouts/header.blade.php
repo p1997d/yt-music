@@ -3,7 +3,7 @@
         <div>
             <a class="navbar-brand" href="/"><i class="bi bi-cassette"></i> @yield('title')</a>
         </div>
-        <div class="w-25">
+        <div class="search">
             @auth
                 <form class="d-flex mb-0" role="search" id="searchForm">
                     @csrf

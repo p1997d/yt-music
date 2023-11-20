@@ -21,7 +21,7 @@
             @endauth
         </div>
 
-        <div class="offcanvas offcanvas-end z-3 w-50 content" tabindex="-1" id="offcanvasSearch"
+        <div class="offcanvas offcanvas-end z-3 w-75 content" tabindex="-1" id="offcanvasSearch"
             aria-labelledby="offcanvasRightLabel" data-bs-scroll="true" data-bs-backdrop="false">
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasSearchLabel"></h5>
