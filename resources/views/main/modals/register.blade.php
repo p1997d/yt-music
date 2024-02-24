@@ -70,8 +70,8 @@
                     </div>
 
                     <div class="modal-footer">
-                        <button type="button" class="btn button" data-bs-dismiss="modal">Закрыть</button>
                         <button type="submit" class="btn button">{{ __('Зарегистрироваться') }}</button>
+                        <button type="button" class="btn button" data-bs-dismiss="modal">Закрыть</button>
                     </div>
                 </div>
             </form>
