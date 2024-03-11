@@ -220,8 +220,7 @@ $(document).ready(() => {
 
     async function nextVideo() {
         let newId;
-        const current = await getCurrentPlaylist();
-        const playlist = current.playlist;
+        const { playlist } = await getCurrentPlaylist();
         const loop = Cookies.get('loop');
         const shuffle = JSON.parse(Cookies.get('shuffle'));
 
